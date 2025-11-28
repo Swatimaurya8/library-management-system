@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+    width: 90%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.top-menu {
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.top-menu span {
+    font-weight: bold;
+    color: #222;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+.details-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.details-table th {
+    background: #003366;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.details-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.details-table tr:nth-child(even) {
+    background: #f7f7f7;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    <div class="top-menu">
+        <span>Chart</span>
+        <span>Home Page</span>
+        <span>Reports</span>
+        <span>Transactions</span>
+    </div>
+
+    <h2 class="title">Product Details</h2>
+
+    <table class="details-table">
+        <thead>
+            <tr>
+                <th>Code No From</th>
+                <th>Code No To</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>SC(B/M)000001</td>
+                <td>SC(B/M)000004</td>
+                <td>Science</td>
+            </tr>
+            <tr>
+                <td>EC(B/M)000001</td>
+                <td>EC(B/M)000004</td>
+                <td>Economics</td>
+            </tr>
+            <tr>
+                <td>FC(B/M)000001</td>
+                <td>FC(B/M)000004</td>
+                <td>Fiction</td>
+            </tr>
+            <tr>
+                <td>CH(B/M)000001</td>
+                <td>CH(B/M)000004</td>
+                <td>Children</td>
+            </tr>
+            <tr>
+                <td>PD(B/M)000001</td>
+                <td>PD(B/M)000004</td>
+                <td>Personal Development</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
+</body>
+</html>
