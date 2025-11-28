@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+#back, #search {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#back:hover, #search:hover {
+    background-color: #3e8e41;
+}
+
+.dotted-line {
+    border-top: 1px dotted #ccc;
+    margin-top: 20px;
+}
+
+#logout {
+    float: right;
+    margin-top: 10px;
+}
+
+        </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Library Management System Transactions</h1>
+        <table>
+            <tr>
+                <th>Chart</th>
+                <th>Transactions</th>
+                <th>Home</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <select id="transactions">
+                        <option value="book-availability">Book Availability</option>
+                        <option value="issue-book">Issue book?</option>
+                        <option value="return-book">Return book?</option>
+                        <option value="enter-book-name">Enter Book Name Drop Down</option>
+                        <option value="enter-author">Enter Author Drop Down</option>
+                        <option value="pay-fine">Pay Fine?</option>
+                    </select>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        <div class="buttons">
+            <button id="back">Back</button>
+            <button id="search">Search</button>
+        </div>
+        <hr class="dotted-line">
+        <a href="#" id="logout">Log Out</a>
+    </div>
+</body>
+</html>
